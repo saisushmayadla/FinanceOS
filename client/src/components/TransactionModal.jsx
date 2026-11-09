@@ -293,3 +293,4 @@ const TransactionModal = ({ isOpen, onClose, onSave, transaction = null, default
 };
 
 export default TransactionModal;
+

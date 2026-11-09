@@ -197,3 +197,4 @@ const BudgetModal = ({ isOpen, onClose, onSave, budget = null, selectedMonth = n
 };
 
 export default BudgetModal;
+

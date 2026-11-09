@@ -6,3 +6,4 @@ router.get('/summary', getDashboardSummary);
 router.post('/seed', seedData);
 
 module.exports = router;
+

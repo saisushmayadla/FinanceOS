@@ -364,3 +364,4 @@ const BudgetsPage = ({ refreshTrigger, onTriggerRefresh }) => {
 };
 
 export default BudgetsPage;
+

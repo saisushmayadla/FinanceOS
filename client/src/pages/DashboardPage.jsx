@@ -409,3 +409,4 @@ const DashboardPage = ({ onOpenTransactionModal, refreshTrigger }) => {
 };
 
 export default DashboardPage;
+

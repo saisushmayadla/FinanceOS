@@ -383,3 +383,4 @@ const TransactionsPage = ({ refreshTrigger, onTriggerRefresh }) => {
 };
 
 export default TransactionsPage;
+

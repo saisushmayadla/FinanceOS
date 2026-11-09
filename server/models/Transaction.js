@@ -49,3 +49,4 @@ transactionSchema.index({ date: -1 });
 transactionSchema.index({ type: 1, category: 1 });
 
 module.exports = mongoose.model('Transaction', transactionSchema);
+

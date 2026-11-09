@@ -20,3 +20,4 @@ const StatCard = ({ title, value, subtitle, icon: Icon, variant = 'gold' }) => {
 };
 
 export default StatCard;
+
