@@ -1,0 +1,17 @@
+{
+  "name": "financeos",
+  "version": "1.0.0",
+  "description": "FinanceOS – Personal Finance Management System (MERN Stack)",
+  "private": true,
+  "scripts": {
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "build:client": "npm --prefix client run build",
+    "start": "npm --prefix server start",
+    "dev": "node -e \"const { spawn } = require('child_process'); const isWin = process.platform === 'win32'; const cmd = isWin ? 'npm.cmd' : 'npm'; const s = spawn(cmd, ['run', 'dev'], { cwd: './server', stdio: 'inherit' }); const c = spawn(cmd, ['run', 'dev'], { cwd: './client', stdio: 'inherit' }); process.on('SIGINT', () => { s.kill(); c.kill(); process.exit(); });\""
+  },
+  "keywords": ["finance", "mern", "react", "express", "mongodb", "personal-finance"],
+  "author": "Senior Full-Stack MERN Developer",
+  "license": "MIT"
+}
