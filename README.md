@@ -1,3 +1,16 @@
+## Live Demo
+
+**FinanceOS is deployed and live!**
+
+🌐 **[Visit FinanceOS – Live Application](https://financeos-red-zeta.vercel.app)**
+
+**Deployment:**
+- Frontend: Vercel
+- Backend: Render
+- Database: MongoDB Atlas
+
+Try the application and explore its personal finance management features.
+
 # FinanceOS – Personal Finance Management System
 
 > A luxury, minimal, and responsive full-stack MERN (MongoDB, Express, React, Node.js) web application engineered for disciplined personal financial planning, real-time transaction tracking, and proactive budget enforcement.
